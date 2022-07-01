@@ -77,13 +77,15 @@ sup {
 
 .imageDescription {
     grid-area: imagepics;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .imageDescription img {
-    max-height: 600px;
     position: absolute;
-    bottom: 10rem;
-    right: 22%;
+    height: 80vh;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     border-radius: 1rem;
     color: var(--primary-color);
